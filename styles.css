@@ -2,11 +2,15 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(90deg, rgb(32, 136, 154) 0%, rgb(16, 171, 198) 35%, rgb(11, 189, 229) 100%);
+    background: linear-gradient(
+        90deg,
+        rgb(32, 136, 154) 0%,
+        rgb(16, 171, 198) 35%,
+        rgb(11, 189, 229) 100%
+    );
     margin: 0;
     padding: 0;
 }
-
 
 /* Upper left side logo */
 
@@ -16,13 +20,11 @@ body {
     left: 20px;
 }
 
-
 .logo-text {
     font-family: "Brush Script MT", "Brush Script Std", cursive;
     font-size: 24px;
     color: #6b6d6d;
 }
-
 
 /* Starts here all the blocks and texts and logos */
 
@@ -35,10 +37,9 @@ body {
 h1 {
     text-align: center;
     color: #dde4e6;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 35px;
 }
-
 
 .item-list {
     list-style: none;
@@ -53,7 +54,6 @@ h1 {
     min-height: 80px;
     align-content: center;
 }
-
 
 .item a {
     display: block;
@@ -74,21 +74,11 @@ h1 {
     margin: 0;
 }
 
-
-
-
-
 /* Media query for smaller screens */
 @media only screen and (max-width: 600px) {
-
     .logo {
-        top: 10px;
-        left: 10px;
-    }
-
-    .logo-text {
-
-        font-size: 18px;
+        top: 30px;
+        max-width: 35px;
     }
 
     .container {
@@ -96,12 +86,11 @@ h1 {
         padding: 20px;
     }
 
-    h1{
+    h1 {
         font-size: 24px;
     }
 
-    .item{
-        min-height: 75px;;
+    .item {
+        min-height: 75px;
     }
-
 }
